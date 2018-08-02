@@ -26,7 +26,7 @@
 
       document.body.appendChild(element);
 
-      document.removeEventListener('click', documentClickListener);
+      document.addEventListener('click', documentClickListener);
 
       element.click();
 
