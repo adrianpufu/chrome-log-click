@@ -26,11 +26,11 @@
 
       document.body.appendChild(element);
 
-      document.addEventListener('click', documentClickListener);
-
       element.click();
 
       document.body.removeChild(element);
+
+      document.addEventListener('click', documentClickListener);
     })()`
   );
   injectedScript.appendChild(inlineScript);
