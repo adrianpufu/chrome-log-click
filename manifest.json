@@ -3,14 +3,9 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "Extension injects a script to log clicked elements",
-  "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": true
-  },
   "browser_action": {
-    "default_title": "Extension"
+    "default_title": "Extension",
+    "default_popup": "interface.html"
   },
   "permissions": [
     "https://*/*",
